@@ -9,11 +9,13 @@ const Header = () => {
                 <img src={bhive_logo} className="h-[32px] w-[100px] lg:h-[40px] lg:w-[125px]" height={32} width={100} alt="logo" />
             </div>
             <div className="flex flex-col h-full">
-                <div className="border cursor-pointer border-[#F2B304] size-9 lg:size-[42px]  flex justify-center items-center rounded min-h-max drop-shadow">
-                    <img src={phone_icon} height={24} width={24} alt="phone icon" className="" />
-                </div>
+                <a href="tel:9538677774">
+                    <div className="border cursor-pointer border-[#F2B304] size-9 lg:size-[42px]  flex justify-center items-center rounded min-h-max drop-shadow">
+                        <img src={phone_icon} height={24} width={24} alt="phone icon" className="" />
+                    </div>
+                </a>
             </div>
-        </div>
+        </div >
     )
 }
 
